@@ -21,14 +21,30 @@
       color: #111;
     }
 
+    .hero {
+      text-align: center;
+    }
+
     h1 {
       font-size: clamp(2.5rem, 8vw, 4rem);
       font-weight: 600;
       letter-spacing: -0.02em;
+      text-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+    }
+
+    .subtext {
+      margin-top: 0.75rem;
+      font-size: clamp(1rem, 3vw, 1.25rem);
+      font-weight: 400;
+      color: #555;
+      text-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
     }
   </style>
 </head>
 <body>
-  <h1>koonggoo</h1>
+  <div class="hero">
+    <h1>koonggoo</h1>
+    <p class="subtext">a place for chaos</p>
+  </div>
 </body>
 </html>
